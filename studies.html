@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>quantum-computing-research/quantum-algorithms — Estudos</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="./css/paleta_cores.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/nav_bar.css" />
+    <link rel="stylesheet" href="./css/pages.css" />
+    <link rel="stylesheet" href="./css/studies.css" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon-32x32.png">
+</head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-43GLSN1HZQ"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-43GLSN1HZQ');
+</script>
+
+<body>
+    <header class="navbar">
+        <div class="wrap">
+            <!-- Link extra à esquerda -->
+            <a class="repo-link" href="https://quantum-computing-research.github.io?utm_source=child_repo&utm_medium=navbar&utm_campaign=studies"
+                title="Repositório Central">⚛</a>
+
+            <div class="brand"><a href="./index.html">Homepage</a></div>
+            <nav class="nav">
+                <a href="./references.html">References</a>
+                <a href="./studies.html">Studies</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="main-wide">
+        <div class="layout">
+            <aside class="sidebar">
+                <input id="q" class="search" placeholder="Filter notebooks..." />
+                <ul id="tree" class="tree"></ul>
+            </aside>
+            <section class="viewer">
+                <iframe id="viewer" src=""></iframe>
+            </section>
+        </div>
+    </main>
+
+    <!-- injeta a árvore apenas nesta página -->
+    <script>
+        window.TREE_DATA = {"type": "dir", "name": "src", "path": "", "children": [{"type": "dir", "name": "k-nn_algorithm", "path": "k-nn_algorithm", "children": [{"type": "file", "name": "K-nn_Algorithm.ipynb", "path": "k-nn_algorithm/K-nn_Algorithm.ipynb", "nb_html": "k-nn_algorithm/K-nn_Algorithm.html"}]}, {"type": "dir", "name": "qaoa_algorithm", "path": "qaoa_algorithm", "children": [{"type": "file", "name": "qaoa_algorithm.ipynb", "path": "qaoa_algorithm/qaoa_algorithm.ipynb", "nb_html": "qaoa_algorithm/qaoa_algorithm.html"}]}, {"type": "dir", "name": "shor_algorithm", "path": "shor_algorithm", "children": [{"type": "file", "name": "01 Modular Arithmetic.ipynb", "path": "shor_algorithm/01 Modular Arithmetic.ipynb", "nb_html": "shor_algorithm/01 Modular Arithmetic.html"}, {"type": "file", "name": "02 Euler Totient Theorem.ipynb", "path": "shor_algorithm/02 Euler Totient Theorem.ipynb", "nb_html": "shor_algorithm/02 Euler Totient Theorem.html"}, {"type": "file", "name": "03 Diffie-Hellman Protocol Key Exchange.ipynb", "path": "shor_algorithm/03 Diffie-Hellman Protocol Key Exchange.ipynb", "nb_html": "shor_algorithm/03 Diffie-Hellman Protocol Key Exchange.html"}, {"type": "file", "name": "04 RSA Cryptography.ipynb", "path": "shor_algorithm/04 RSA Cryptography.ipynb", "nb_html": "shor_algorithm/04 RSA Cryptography.html"}, {"type": "file", "name": "05 Quantum Phase Estimation Algorithm.ipynb", "path": "shor_algorithm/05 Quantum Phase Estimation Algorithm.ipynb", "nb_html": "shor_algorithm/05 Quantum Phase Estimation Algorithm.html"}, {"type": "file", "name": "06 Shors_Algorithm.ipynb", "path": "shor_algorithm/06 Shors_Algorithm.ipynb", "nb_html": "shor_algorithm/06 Shors_Algorithm.html"}]}]};
+    </script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
